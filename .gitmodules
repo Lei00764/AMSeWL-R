@@ -1,0 +1,6 @@
+[submodule "cartographer_ros"]
+	path = cartographer_ros
+	url = https://github.com/cartographer-project/cartographer_ros.git
+[submodule "rplidar_ros"]
+	path = rplidar_ros
+	url = https://github.com/Slamtec/rplidar_ros.git
