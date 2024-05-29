@@ -5,11 +5,12 @@
 
 ```bash
 code
-├── cartographer_ros  // For real-time mapping
-├── rplidar_ros       // For A1M8
-├── TCP_control       // For remote control
-├── iviz              // For mobile device
-└── YOLOv8-R          // For faster object detection
+├── electronic_control  // For the movement of wheeled lifting robot
+├── cartographer_ros    // For real-time mapping
+├── rplidar_ros         // For A1M8
+├── TCP_control         // For remote control
+├── iviz                // For mobile device
+└── YOLOv8-R            // For faster object detection
 ```
 
 #### Mobile device (iviz)
