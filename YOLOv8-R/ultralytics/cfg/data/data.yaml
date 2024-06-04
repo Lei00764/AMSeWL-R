@@ -1,8 +1,8 @@
 # /Users/lei/Desktop/qzj/dataset
 
-train: D:/2024/applied_sciences/dataset/train/images
-val: D:/2024/applied_sciences/dataset/valid/images
-test: D:/2024/applied_sciences/dataset/test/images
+train: xxx/dataset/train/images
+val: xxx/dataset/valid/images
+test: xxx/dataset/test/images
 
 nc: 2
 names: ['box', 'cola']

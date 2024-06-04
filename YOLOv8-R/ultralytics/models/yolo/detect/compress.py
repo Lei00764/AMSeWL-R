@@ -66,7 +66,7 @@ from timm.models.layers import SqueezeExcite
 
 # 没有购买yolov8项目需要注释以下
 from ultralytics.nn.extra_modules import (
-    Detect_LSCD,
+    LSCDH,
     Detect_Efficient,
     Detect_DyHead_Prune,
 )
@@ -195,7 +195,7 @@ def get_pruner(opt, model, example_inputs):
     # for yolov8-starnet-C2f-Star-LSCD.yaml
     for k, m in model.named_modules():
         print(m)
-        if isinstance(m, Detect_LSCD):
+        if isinstance(m, LSCDH):
             ignored_layers.append(m.cv2)
             ignored_layers.append(m.cv3)
             ignored_layers.append(m.dfl)
